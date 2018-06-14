@@ -1,0 +1,24 @@
+{
+  "name": "ikk-codes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/gitbook build . ./docs",
+    "serve": "./node_modules/.bin/gitbook serve",
+    "clean": "rm -rf docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paraself/ikk-codes.git"
+  },
+  "author": "",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/paraself/ikk-codes/issues"
+  },
+  "homepage": "https://github.com/paraself/ikk-codes#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
