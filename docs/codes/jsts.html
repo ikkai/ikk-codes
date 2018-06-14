@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>项目发布 · GitBook</title>
+        <title>JS/TS · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="unittest.html" />
+    <link rel="next" href="vuejs.html" />
     
     
-    <link rel="prev" href="versioncontrol.html" />
+    <link rel="prev" href="../" />
     
 
     </head>
@@ -109,7 +109,7 @@
         
         
     
-        <li class="chapter " data-level="2.1" data-path="jsts.html">
+        <li class="chapter active" data-level="2.1" data-path="jsts.html">
             
                 <a href="jsts.html">
             
@@ -168,7 +168,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.2" data-path="release.html">
+        <li class="chapter " data-level="3.2" data-path="release.html">
             
                 <a href="release.html">
             
@@ -237,7 +237,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >项目发布</a>
+        <a href=".." >JS/TS</a>
     </h1>
 </div>
 
@@ -252,7 +252,60 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x9879;&#x76EE;&#x53D1;&#x5E03;&#x89C4;&#x8303;">&#x9879;&#x76EE;&#x53D1;&#x5E03;&#x89C4;&#x8303;</h1>
+                                <h1 id="jsts">JS/TS</h1>
+<p> &#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x52A8;&#x6001;&#x7EF4;&#x62A4;&#x7684;&#x98CE;&#x683C;&#x4E0E;&#x5B9E;&#x8DF5;&#x89C4;&#x8303;&#x3002;js&#x98CE;&#x683C;&#x91C7;&#x7528;<code>StandardJS</code>&#x98CE;&#x683C;&#xFF0C;ts&#x98CE;&#x683C;&#x91C7;&#x7528;&#x8C37;&#x6B4C;&#x7684;ts&#x98CE;&#x683C;&#x3002;&#x518D;&#x6B64;&#x57FA;&#x7840;&#x4E0A;&#xFF0C;&#x6211;&#x4EEC;&#x6839;&#x636E;&#x81EA;&#x5DF1;&#x7684;&#x4E1A;&#x52A1;&#x9700;&#x6C42;&#xFF0C;&#x6DFB;&#x52A0;&#x4E86;&#x4E00;&#x4E9B;&#x989D;&#x5916;&#x7684;&#x7EA6;&#x675F;&#x3002;</p>
+<h3 id="&#x98CE;&#x683C;">&#x98CE;&#x683C;</h3>
+<table>
+<thead>
+<tr>
+<th>&#x4F18;&#x5148;&#x7EA7;</th>
+<th>&#x6743;&#x91CD;</th>
+<th>&#x5185;&#x5BB9;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td>&#x4F18;&#x5148;&#x4F7F;&#x7528;&#x533F;&#x540D;&#x51FD;&#x6570;&#xFF0C;&#x5C3D;&#x91CF;&#x4E0D;&#x4F7F;&#x7528;&#x533F;&#x540D;&#x8868;&#x8FBE;&#x5F0F;</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>&#x533F;&#x540D;&#x51FD;&#x6570;&#x4E2D;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x9700;&#x8981;&#x7ED9;&#x53C2;&#x6570;&#x52A0;&#x62EC;&#x53F7;&#xFF0C;&#x5219;&#x4E0D;&#x52A0;&#x62EC;&#x53F7;&#x3002;&#x4F8B;&#x5982;&#xFF1A;<code>(x) =&gt; Math.round(x)</code>  &#x5E94;&#x8BE5;&#x5199;&#x6210; <code>x =&gt; Math.round(x)</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>&#x5E03;&#x5C14;&#x7C7B;&#x578B;&#x7684;&#x53D8;&#x91CF;&#x90FD;&#x7528;<code>is</code>&#x5F00;&#x5934;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;<code>isButtonClicked</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>&#x7528;&#x52A8;&#x8BCD;&#x7684;&#x8FC7;&#x53BB;&#x5206;&#x8BCD;&#x5F62;&#x5F0F;<code>-ed</code>&#x540E;&#x7F00;&#x8868;&#x793A;&#x67E5;&#x8BE2;&#x4E00;&#x4E2A;&#x5DF2;&#x7ECF;&#x53D1;&#x751F;&#x7684;&#x72B6;&#x6001;&#x3002;&#x4F8B;&#x5982;&#xFF1A;<code>isAudioPlayed</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>&#x7528;&#x52A8;&#x8BCD;&#x7684;&#x73B0;&#x5728;&#x5206;&#x8BCD;&#x5F62;&#x5F0F;<code>-ing</code>&#x6765;&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x6B63;&#x5728;&#x8FDB;&#x884C;&#x7684;&#x72B6;&#x6001;&#x3002;&#x4F8B;&#x5982;&#xFF1A;<code>isAudioPlaying</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>&#x7C7B;&#x578B;&#x6216;&#x8005;Class&#x4EE5;Pascal&#x547D;&#x540D;&#x3002;&#x4F8B;&#x5982;&#xFF1A;<code>class MyBestClass {}</code>, <code>type MyType = string[]</code></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>ts/js&#x6A21;&#x5757;&#x7684;&#x6587;&#x4EF6;&#x540D;&#x5C0F;&#x5199;<code>my-modules.ts</code>, &#x4F46;VueJS&#x4E2D;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x9700;&#x8981;&#x4F7F;&#x7528;Pascal&#x547D;&#x540D;&#x6CD5;&#x3002;</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>&#x53C2;&#x8003;&#x5185;&#x5BB9;</p>
+<p><a href="https://github.com/google/ts-style" target="_blank">https://github.com/google/ts-style</a></p>
+<p><a href="https://standardjs.com/" target="_blank">https://standardjs.com/</a></p>
+</blockquote>
 
                                 
                                 </section>
@@ -280,12 +333,12 @@
 
             
                 
-                <a href="versioncontrol.html" class="navigation navigation-prev " aria-label="Previous page: 分支管理">
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 说明">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="unittest.html" class="navigation navigation-next " aria-label="Next page: 单元测试">
+                <a href="vuejs.html" class="navigation navigation-next " aria-label="Next page: VueJS">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -296,7 +349,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"项目发布","level":"3.2","depth":1,"next":{"title":"单元测试","level":"3.3","depth":1,"path":"codes/unittest.md","ref":"codes/unittest.md","articles":[]},"previous":{"title":"分支管理","level":"3.1","depth":1,"path":"codes/versioncontrol.md","ref":"codes/versioncontrol.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"codes/release.md","mtime":"2018-06-14T12:25:40.483Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-14T17:52:58.195Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"JS/TS","level":"2.1","depth":1,"next":{"title":"VueJS","level":"2.2","depth":1,"path":"codes/vuejs.md","ref":"codes/vuejs.md","articles":[]},"previous":{"title":"说明","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"root":"./src","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"codes/jsts.md","mtime":"2018-06-14T17:52:26.861Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-14T17:52:58.195Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
