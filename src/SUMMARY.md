@@ -4,12 +4,51 @@
 
 ## 代码规范
 
-* [JS/TS](codes/jsts.md)
-* [VueJS](codes/vuejs.md)
-* [TypeScript](codes/typescript.md)
+* [JS/TS](codes/dev/jsts.md)
+* [VueJS](codes/dev/vuejs.md)
+* [TypeScript](codes/dev/typescript.md)
 
 ## 项目管理规范
-* [分支管理](codes/versioncontrol.md)
-* [项目发布](codes/release.md)
-* [单元测试](codes/unittest.md)
-* [e2e测试](codes/e2e.md)
+* [分支管理](codes/dev/versioncontrol.md)
+* [项目发布](codes/dev/release.md)
+* [单元测试](codes/dev/unittest.md)
+* [e2e测试](codes/dev/e2e.md)
+
+## 科科智能规章制度
+*  [1.企业简介](codes/hr/企业文化.md)
+*  [2.员工守则](codes/hr/员工守则和岗位职责.md)
+*  [3.出勤、考勤以及请假制度](codes/hr/出勤、考勤以及请假制度.md)
+*  [4.办公室制度](codes/hr/办公室制度.md)
+*  [5.公司辞退与辞职管理规](codes/hr/公司辞退与辞职管理规定 .md)
+* 6.科科智能-试用期管理制度
+  * [6.1.试用期说明](codes/hr/试用期管理/6.1试用期说明.md)
+  * [6.2.试用期的期限和工资](codes/hr/试用期管理/6.2试用期的期限和工资.md)
+  * [6.3.试用期基本的管理制度](codes/hr/试用期管理/6.3试用期基本管理制度.md)
+  * [6.4.试用期转正考核](codes/hr/试用期管理/6.4试用期转正考核说明.md)
+  * [6.5.员工正式录用](codes/hr/试用期管理/6.5员工正式录用说明.md)
+  * [6.6.辞职或辞退管理](codes/hr/试用期管理/6.6辞职或辞退.md)
+* [7.公司年休假制度](codes/hr/公司年休假制度 .md)
+* 8.岗位职责
+  *  [8.1人事部岗位职责]()
+  	* [8.1.1人事助理岗位职责](codes/hr/岗位职责/人事助理岗位职责.md)
+  * [8.2 技术岗部岗位职责]()
+  	* [8.2.1前端开发岗位职责](codes/hr/岗位职责/前端开发岗位说明书.md)
+  	* [8.2.2后端开发岗位职责](codes/hr/岗位职责/后端开发岗位职责.md)
+  	* [8.2.3UI设计岗位职责](codes/hr/岗位职责/UI设计师岗位职责.md)
+  	* [8.2.4产品岗位职责](codes/hr/岗位职责/产品部岗位职责.md)
+  * [8.3运营岗位职责]()
+  	* [8.3.1英语助教岗位职责](codes/hr/岗位职责/英语助教岗位职责.md)
+  	* [8.3.2新媒体岗位职责](codes/hr/岗位职责/新媒体运营岗位职责.md)
+  	* [8.3.3课程顾问岗位职责](codes/hr/岗位职责/课程顾问岗位职责.md)
+  * [8.4营销推广部岗位职责]()
+  	* [8.4.1商务推广岗位职责](codes/hr/岗位职责/商务推广岗位职责.md)
+  	* [8.4.2电商运营岗位职责](codes/hr/岗位职责/电商运营岗位职责.md)
+  	* [8.4.3运营美工岗位职责](codes/hr/岗位职责/运营美工岗位职责.md)
+  	* [8.4.4咨询顾问岗位职责](codes/hr/岗位职责/咨询顾问岗位职责.md)
+  * [ 8.5教研部岗位职责]()
+  	* [8.5.1PTE讲师岗位职责](codes/hr/岗位职责/PTE讲师岗位职责.md) 
+*  [9.科科智能-开放职级与薪酬制度](codes/hr/员工职级的晋升 .md)
+*  [10.附则](codes/hr/附则 .md)
+
+## 科科智能培训说明
+* [培训说明](codes/hr/科科智能公司培训说明.md)
