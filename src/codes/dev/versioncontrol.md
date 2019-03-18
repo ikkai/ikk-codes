@@ -26,6 +26,9 @@
 4. **hotfix修bug，没修好，结果把整个项目都弄崩溃了**
 
    github上，merge PR之后，可以revert，revert一下就回滚了。
+   
+5. **如何保持一致的commit格式**
+   参考https://www.conventionalcommits.org/
 
 *其他问题，欢迎大家补充*
 
